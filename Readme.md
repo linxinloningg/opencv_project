@@ -1,5 +1,7 @@
 ### opencv保姆级别教入门，不会就把我头打爆。
 
+全部代码链接:https://github.com/linxinloningg/opencv_project
+
 #### 环境配置：
 
 ```bash
