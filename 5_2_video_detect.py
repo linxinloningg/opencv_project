@@ -2,7 +2,7 @@ import cv2
 
 
 # 检测函数
-def face_detect_demo(image):
+def face_detect(image):
     # 灰度转换
     gray_img = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
     # 加载分类器
@@ -21,7 +21,7 @@ cap = cv2.VideoCapture('test.mp4')
 while True:
     ret, img = cap.read()
     if ret:
-        face_detect_demo(img)
+        face_detect(img)
 
     if cv2.waitKey(1) == ord('q'):
         break
